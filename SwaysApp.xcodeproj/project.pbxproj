@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EA16DB1C05881652CE33AB3 /* Pods_SwaysAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B149024A369AF78151EBDEF9 /* Pods_SwaysAppUITests.framework */; };
+		49A6D630E8F654EE69BCB08D /* Pods_SwaysApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6D7A7CE6E71182427EA64D /* Pods_SwaysApp.framework */; };
+		69639023B4EC4A0CDD2F2C21 /* Pods_SwaysAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A5A8CF90B7D8AC8DF3EFDD /* Pods_SwaysAppTests.framework */; };
 		C52FE98120506C9800CC2C9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52FE98020506C9800CC2C9B /* AppDelegate.swift */; };
 		C52FE98320506C9800CC2C9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52FE98220506C9800CC2C9B /* ViewController.swift */; };
 		C52FE98620506C9800CC2C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52FE98420506C9800CC2C9B /* Main.storyboard */; };
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0782FE33CC9174C009E88A11 /* Pods-SwaysAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaysAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwaysAppUITests/Pods-SwaysAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		134DBFA6C6B26283430AB466 /* Pods-SwaysAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaysAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwaysAppTests/Pods-SwaysAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A740986B2D6830BC25916C1 /* Pods-SwaysAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaysAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwaysAppUITests/Pods-SwaysAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A6A0A9BA9B715E8249C4A820 /* Pods-SwaysApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaysApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwaysApp/Pods-SwaysApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B149024A369AF78151EBDEF9 /* Pods_SwaysAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwaysAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6D7A7CE6E71182427EA64D /* Pods_SwaysApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwaysApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34A9A75C96BBD639552CE59 /* Pods-SwaysAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaysAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwaysAppTests/Pods-SwaysAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		C52FE97D20506C9800CC2C9B /* SwaysApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwaysApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52FE98020506C9800CC2C9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C52FE98220506C9800CC2C9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		C52FE99C20506C9800CC2C9B /* SwaysAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwaysAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52FE9A020506C9800CC2C9B /* SwaysAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwaysAppUITests.swift; sourceTree = "<group>"; };
 		C52FE9A220506C9800CC2C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0A5A8CF90B7D8AC8DF3EFDD /* Pods_SwaysAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwaysAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28A216546DA4071AC80093D /* Pods-SwaysApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaysApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwaysApp/Pods-SwaysApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A6D630E8F654EE69BCB08D /* Pods_SwaysApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69639023B4EC4A0CDD2F2C21 /* Pods_SwaysAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA16DB1C05881652CE33AB3 /* Pods_SwaysAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B05946E23636F9F946797F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB6D7A7CE6E71182427EA64D /* Pods_SwaysApp.framework */,
+				D0A5A8CF90B7D8AC8DF3EFDD /* Pods_SwaysAppTests.framework */,
+				B149024A369AF78151EBDEF9 /* Pods_SwaysAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A40224AD19775871F5F9F67A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6A0A9BA9B715E8249C4A820 /* Pods-SwaysApp.debug.xcconfig */,
+				D28A216546DA4071AC80093D /* Pods-SwaysApp.release.xcconfig */,
+				134DBFA6C6B26283430AB466 /* Pods-SwaysAppTests.debug.xcconfig */,
+				C34A9A75C96BBD639552CE59 /* Pods-SwaysAppTests.release.xcconfig */,
+				0782FE33CC9174C009E88A11 /* Pods-SwaysAppUITests.debug.xcconfig */,
+				7A740986B2D6830BC25916C1 /* Pods-SwaysAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C52FE97420506C9800CC2C9B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				C52FE99420506C9800CC2C9B /* SwaysAppTests */,
 				C52FE99F20506C9800CC2C9B /* SwaysAppUITests */,
 				C52FE97E20506C9800CC2C9B /* Products */,
+				A40224AD19775871F5F9F67A /* Pods */,
+				1B05946E23636F9F946797F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C52FE9A520506C9800CC2C9B /* Build configuration list for PBXNativeTarget "SwaysApp" */;
 			buildPhases = (
+				F0DB92A69E8AD7CF9C807B43 /* [CP] Check Pods Manifest.lock */,
 				C52FE97920506C9800CC2C9B /* Sources */,
 				C52FE97A20506C9800CC2C9B /* Frameworks */,
 				C52FE97B20506C9800CC2C9B /* Resources */,
+				43CCF0FEB8A1C5ACFC7624F8 /* [CP] Embed Pods Frameworks */,
+				C91AD43C337413C9B34AF14B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C52FE9A820506C9800CC2C9B /* Build configuration list for PBXNativeTarget "SwaysAppTests" */;
 			buildPhases = (
+				7508B766AC2A7FBFFAAAF628 /* [CP] Check Pods Manifest.lock */,
 				C52FE98D20506C9800CC2C9B /* Sources */,
 				C52FE98E20506C9800CC2C9B /* Frameworks */,
 				C52FE98F20506C9800CC2C9B /* Resources */,
+				ECD0176CAEDF795CAF0FA368 /* [CP] Embed Pods Frameworks */,
+				5103BC3B97BA3A4996B40CDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C52FE9AB20506C9800CC2C9B /* Build configuration list for PBXNativeTarget "SwaysAppUITests" */;
 			buildPhases = (
+				D101095D5931DE035EBE98C1 /* [CP] Check Pods Manifest.lock */,
 				C52FE99820506C9800CC2C9B /* Sources */,
 				C52FE99920506C9800CC2C9B /* Frameworks */,
 				C52FE99A20506C9800CC2C9B /* Resources */,
+				2DD13B61404147E20DF535DB /* [CP] Embed Pods Frameworks */,
+				9321D8082BCE45176F9ED736 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,173 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DD13B61404147E20DF535DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwaysAppUITests/Pods-SwaysAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43CCF0FEB8A1C5ACFC7624F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwaysApp/Pods-SwaysApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwaysApp/Pods-SwaysApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5103BC3B97BA3A4996B40CDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwaysAppTests/Pods-SwaysAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7508B766AC2A7FBFFAAAF628 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwaysAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9321D8082BCE45176F9ED736 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwaysAppUITests/Pods-SwaysAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C91AD43C337413C9B34AF14B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwaysApp/Pods-SwaysApp-resources.sh",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GINInviteResources.bundle",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GPPACLPickerResources.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwaysApp/Pods-SwaysApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D101095D5931DE035EBE98C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwaysAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECD0176CAEDF795CAF0FA368 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwaysAppTests/Pods-SwaysAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0DB92A69E8AD7CF9C807B43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwaysApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C52FE97920506C9800CC2C9B /* Sources */ = {
@@ -424,6 +640,7 @@
 		};
 		C52FE9A620506C9800CC2C9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A0A9BA9B715E8249C4A820 /* Pods-SwaysApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +656,7 @@
 		};
 		C52FE9A720506C9800CC2C9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28A216546DA4071AC80093D /* Pods-SwaysApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +672,7 @@
 		};
 		C52FE9A920506C9800CC2C9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 134DBFA6C6B26283430AB466 /* Pods-SwaysAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +690,7 @@
 		};
 		C52FE9AA20506C9800CC2C9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C34A9A75C96BBD639552CE59 /* Pods-SwaysAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +708,7 @@
 		};
 		C52FE9AC20506C9800CC2C9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0782FE33CC9174C009E88A11 /* Pods-SwaysAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +725,7 @@
 		};
 		C52FE9AD20506C9800CC2C9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A740986B2D6830BC25916C1 /* Pods-SwaysAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
